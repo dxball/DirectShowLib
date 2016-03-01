@@ -241,9 +241,4 @@
     </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PreBuildEvent>
-    </PreBuildEvent>
-    <PostBuildEvent>copy "$(TargetPath)" "$(ProjectDir)..\Releases\"</PostBuildEvent>
-  </PropertyGroup>
 </Project>
